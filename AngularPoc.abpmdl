@@ -1,0 +1,117 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AngularPoc.Application": {
+      "path": "src/AngularPoc.Application/AngularPoc.Application.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.Application.Tests": {
+      "path": "test/AngularPoc.Application.Tests/AngularPoc.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AngularPoc.Domain.Shared": {
+      "path": "src/AngularPoc.Domain.Shared/AngularPoc.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.Application.Contracts": {
+      "path": "src/AngularPoc.Application.Contracts/AngularPoc.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.HttpApi": {
+      "path": "src/AngularPoc.HttpApi/AngularPoc.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.HttpApi.Client": {
+      "path": "src/AngularPoc.HttpApi.Client/AngularPoc.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.EntityFrameworkCore.Tests": {
+      "path": "test/AngularPoc.EntityFrameworkCore.Tests/AngularPoc.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AngularPoc.EntityFrameworkCore": {
+      "path": "src/AngularPoc.EntityFrameworkCore/AngularPoc.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.TestBase": {
+      "path": "test/AngularPoc.TestBase/AngularPoc.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AngularPoc.Domain.Tests": {
+      "path": "test/AngularPoc.Domain.Tests/AngularPoc.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AngularPoc.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AngularPoc.HttpApi.Client.ConsoleTestApp/AngularPoc.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AngularPoc.DbMigrator": {
+      "path": "src/AngularPoc.DbMigrator/AngularPoc.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.HttpApi.Host": {
+      "path": "src/AngularPoc.HttpApi.Host/AngularPoc.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AngularPoc.Domain": {
+      "path": "src/AngularPoc.Domain/AngularPoc.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

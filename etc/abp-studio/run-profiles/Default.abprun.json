@@ -1,0 +1,23 @@
+﻿{
+  "applications": {
+    "AngularPoc.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44317",
+      "path": "../../../src/AngularPoc.HttpApi.Host/AngularPoc.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$",
+      "execution": {
+        "order": 4
+      }
+    },
+    "AngularPoc.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$",
+      "execution": {
+        "order": 2
+      }    
+    }
+  }
+}
